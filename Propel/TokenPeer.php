@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace FOS\OAuthServerBundle\Propel;
 
-use FOS\OAuthServerBundle\Propel\om\BaseTokenPeer;
+use FOS\OAuthServerBundle\Propel\Base\TokenPeer as BaseTokenPeer;
 
 class TokenPeer extends BaseTokenPeer
 {

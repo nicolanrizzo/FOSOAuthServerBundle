@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace FOS\OAuthServerBundle\Propel;
 
-use FOS\OAuthServerBundle\Propel\om\BaseAccessTokenQuery;
+use FOS\OAuthServerBundle\Propel\Base\AccessTokenQuery as BaseAccessTokenQuery;
 
 class AccessTokenQuery extends BaseAccessTokenQuery
 {

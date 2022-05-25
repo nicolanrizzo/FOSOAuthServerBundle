@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace FOS\OAuthServerBundle\Propel;
 
-use FOS\OAuthServerBundle\Propel\om\BaseAuthCodePeer;
+use FOS\OAuthServerBundle\Propel\Base\AuthCodePeer as BaseAuthCodePeer;
 
 class AuthCodePeer extends BaseAuthCodePeer
 {

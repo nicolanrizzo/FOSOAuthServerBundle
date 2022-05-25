@@ -14,7 +14,7 @@ declare(strict_types=1);
 namespace FOS\OAuthServerBundle\Propel;
 
 use FOS\OAuthServerBundle\Model\ClientInterface;
-use FOS\OAuthServerBundle\Propel\om\BaseClient;
+use FOS\OAuthServerBundle\Propel\Base\Client as BaseClient;
 use FOS\OAuthServerBundle\Util\Random;
 use OAuth2\OAuth2;
 

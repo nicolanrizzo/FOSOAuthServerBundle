@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace FOS\OAuthServerBundle\Propel;
 
-use FOS\OAuthServerBundle\Propel\om\BaseClientPeer;
+use FOS\OAuthServerBundle\Propel\Base\ClientPeer as BaseClientPeer;
 
 class ClientPeer extends BaseClientPeer
 {

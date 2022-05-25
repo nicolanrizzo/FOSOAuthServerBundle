@@ -14,7 +14,7 @@ declare(strict_types=1);
 namespace FOS\OAuthServerBundle\Propel;
 
 use FOS\OAuthServerBundle\Model\AuthCodeInterface;
-use FOS\OAuthServerBundle\Propel\om\BaseAuthCode;
+use FOS\OAuthServerBundle\Propel\Base\AuthCode as BaseAuthCode;
 
 class AuthCode extends BaseAuthCode implements AuthCodeInterface
 {
